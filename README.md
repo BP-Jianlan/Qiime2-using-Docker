@@ -4,7 +4,7 @@ This project is aiming to use [Qiime2](https://qiime2.org/) through docker on ei
     while IFS=, read -r col1; do echo "prefetch $col1"; done < SraAccList.csv > prefetch.sh
     while IFS=, read -r col1; do echo "fasterq-dump $col1"; done < SraAccList.csv > fastq-dump.sh
     chmod prefetch.sh / fastq-dump.sh
-### work in a attached screen
+### work in attached screen
     screen -S prefetch
     ctrl-a+d
     screen -r
