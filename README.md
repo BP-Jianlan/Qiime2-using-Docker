@@ -1,5 +1,6 @@
 # Qiime2-using-Docker
-docker images | grep 'qiime'
+This project is aiming to use Qiime2 [on 16s ](https://qiime2.org/) through docker on either single-end or paired-end 16s processing.
+    docker images | grep 'qiime'
 ### create container named qiime2_jr
     docker run --name qiime2_jr -dit -v /home:/home -v /data:/data --user $(id -u jianlanr):$(id -g jianlanr) 830b60993ea9 bash
 ### list containers
