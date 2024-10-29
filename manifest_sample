@@ -1,0 +1,6 @@
+sampleid	forward-absolute-filepath	reverse-absolute-filepath
+SRR30569841	$PWD/rawdata/SRR30569841_1.fastq.gz	$PWD/rawdata/SRR30569841_2.fastq.gz
+SRR30569843	$PWD/rawdata/SRR30569843_1.fastq.gz	$PWD/rawdata/SRR30569843_2.fastq.gz
+SRR30569842	$PWD/rawdata/SRR30569842_1.fastq.gz	$PWD/rawdata/SRR30569842_2.fastq.gz
+SRR30569840	$PWD/rawdata/SRR30569840_1.fastq.gz	$PWD/rawdata/SRR30569840_2.fastq.gz
+SRR30569834	$PWD/rawdata/SRR30569834_1.fastq.gz	$PWD/rawdata/SRR30569834_2.fastq.gz
