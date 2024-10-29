@@ -7,10 +7,10 @@ docker images | grep 'qiime'
 ### running container 
     docker exec -it qiime2_jr bash
 ### stop container
-docker container stop <container id>
-## remove container
-docker container rm <container id>
-## go to directory
-cd /home/jianlanr/Saliva_16srna
-## srun script
-srun docker exec -i <docker-container-name> bash < <path-to-qiime-script>
+    docker container stop <container id>
+### remove container
+    docker container rm <container id>
+### go to directory
+    cd /home/jianlanr/Saliva_16srna
+### srun script
+    srun docker exec -i <docker-container-name> bash < <path-to-qiime-script>
